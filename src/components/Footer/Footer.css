@@ -1,0 +1,108 @@
+* {
+    font-family: 'Ubuntu';
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 224px;
+    background-color: #C00808;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    align-items: center;
+    padding-left: 37px;
+}
+
+.footer-logo {
+    width: 76px;
+    height: 73px;
+    align-self: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-left: 43px;
+}
+
+
+.footer-links a {
+    color: white;
+    text-decoration: underline;
+    font-size: 28px;   
+}
+
+.footer-address {
+    margin-left: 154px;
+    color: white;
+    font-size: 28px;
+}
+
+.footer-address p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-address ul {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.footer-address li {
+    text-decoration: underline;
+}
+
+@media all and (min-width: 980px) and (max-width: 1199px) {
+    .footer-links a {
+        font-size: 20px;
+    }
+
+    .footer-address {
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 979px) {
+    .footer-links a {
+        font-size: 16px;
+    }
+
+    .footer-address {
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 360px) and (max-width: 759px) {
+    .footer-links {
+        gap: 4px;
+        text-wrap: nowrap;
+    }
+    
+    .footer-links a {
+        font-size: 8px;
+        margin-left: -23px;
+    }
+
+    .footer-address {
+        font-size: 8px;
+        margin-left: 75px;
+    }
+
+    .footer {
+        height: 81px;
+        padding-left: 14px;
+    }
+    
+    .footer-logo {
+        width: 30px;
+        height: 31px;
+        align-self: center;
+        background-color: white;
+        padding: 4px;
+    }
+}

@@ -1,0 +1,36 @@
+* {
+    font-family: 'Ubuntu';
+}
+
+.form-block {
+    justify-self: center;
+    width: 50%;
+    height: 70vh;
+    background-color: #C00808;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.form-block h3 {
+    color: white;
+    font-size: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+label {
+    color: white;
+    font-size: 28px;
+}
+
+input {
+    width: 100%;
+    align-self: center;
+}

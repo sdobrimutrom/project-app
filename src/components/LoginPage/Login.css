@@ -1,0 +1,31 @@
+* {
+    font-family: 'Ubuntu';
+}
+
+.login-form {
+    justify-self: center;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #C00808;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+
+.login-form h3 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form form label {
+    color: white;
+    font-size: 28px;
+}

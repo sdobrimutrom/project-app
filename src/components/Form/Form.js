@@ -29,7 +29,7 @@ function Form() {
                         <option value="day">Дневной</option>
                     </select>
                 </div>
-                <button type="submit">Оставить заявку</button>
+                <button type="submit" href="/">Оставить заявку</button>
             </form>
         </div>
     );

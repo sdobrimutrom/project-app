@@ -5,6 +5,7 @@ import HomePage from './components/HomePage/HomePage'
 import LoginPage from './components/LoginPage/LoginPage'
 import AboutPage from './components/AboutPage/AboutPage'
 import CountCaloriesPage from './components/CountCaloriesPage/CountCaloriesPage'
+import RegistrationPage from './components/RegistrationPage/RegistrationPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/about' element={<AboutPage/>}/>
           <Route path='/count_calories' element={<CountCaloriesPage/>}/>
           <Route path='/login' element={<LoginPage/>}/>
+          <Route path='/signin' element={<RegistrationPage/>}/>
         </Routes>
       </Router>
     </div>

@@ -187,6 +187,10 @@
 }
 
 @media all and (min-width: 760px) and (max-width: 979px) {
+    .form h2 {
+        font-size: 14px ;
+    }
+    
     .first-block {
         height: 45vh;
     }
@@ -210,6 +214,10 @@
 }
 
 @media all and (min-width: 360px) and (max-width: 759px) {
+    .form h2 {
+        font-size: 12px ;
+    }
+    
     .content-overlay h2 {
         font-size: 8px;
     }

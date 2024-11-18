@@ -1,16 +1,13 @@
-* {
-    font-family: 'Ubuntu';
-}
-
 .login-form {
     justify-self: center;
     width: 50%;
-    height: auto;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     background-color: #C00808;
     border-radius: 15px;
     border: solid 2px black;
+    margin-top: 5%;
 }
 
 .login-form h3 {
@@ -25,7 +22,53 @@
     justify-content: center;
 }
 
-.login-form form label {
+.login-form label {
     color: white;
     font-size: 28px;
+}
+
+.login-form input {
+    width: 80%;
+    height: 3vh;
+    border: solid 2px black;
+    border-radius: 50px;
+}
+
+.remember-me {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-self: start;
+}
+.remember-me label {
+    width: 100%;
+}
+
+.remember-me input {
+    
+    justify-self: end;
+}
+
+.login-form a {
+    text-decoration: none;
+    width: 50%;
+    border: solid 2px black;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+
+.login-btn {
+    margin: 44px 0;
+    background-color: #A3FFC1;
+}
+
+.signin-btn {
+    background-color: #EBFFA3;
+}
+
+.login-form a:hover {
+    background-color: #C00808;
+    color: white;
 }

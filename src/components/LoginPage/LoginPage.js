@@ -14,9 +14,14 @@ function LoginPage() {
 
                     <label for="fpassword">Пароль</label>
                     <input type="password" id="fpass" name="fpass" placeholder="Ваш пароль..."/>
+                    
+                    <div className="remember-me">
+                        <input type="checkbox" value="lsRememberMe" id="rememberMe"/> <label for="rememberMe">Запомнить меня</label>
+                    </div>
+
 
                     <a href="/" className="login-btn">Войти</a>
-                    <a href="/signin" className="sigin-btn">Регистрация</a>
+                    <a href="/signin" className="signin-btn">Регистрация</a>
                 </form>
             </div>
         </div>

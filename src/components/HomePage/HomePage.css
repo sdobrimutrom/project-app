@@ -8,7 +8,7 @@
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     overflow: hidden;
 }
 
@@ -69,7 +69,7 @@
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     overflow: hidden;
 }
 
@@ -90,7 +90,7 @@
     padding: 10px;
     max-width: 80%;
     position: absolute;
-    right: 70%;
+    right: 80%;
     bottom: 30px;
     align-items: center;
 }
@@ -98,7 +98,10 @@
 .features {
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 50vh;
+    width: 98%;
+    justify-self: center;
+    margin-top: 30px;
     background-color: #C00808;
 }
 
@@ -113,7 +116,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 70%;
     align-self: center;
 }
 
@@ -141,20 +144,133 @@
 .features a {
     text-decoration: none;
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     color: black;
     font-size: 20px;
     width: 30%;
     margin-left: 100px;
 }
 
+.about-a {
+    margin-top: 3vh;
+}
+
+
+
 .features .btn-img {
     width: 50px;
     vertical-align: middle;
-    align-self: flex-end;
 }
 
 .form h2 {
     font-size: 32px;
     text-align: center;
+}
+
+@media all and (min-width: 980px) and (max-width: 1199px) {
+    .content-overlay h2 {
+        font-size: 20px;
+    }
+
+    .second-block {
+        height: 65vh;
+    }
+
+    .second-block .content-overlay {
+        right: 60%;
+        bottom: 20%;
+    }
+
+    .features {
+        margin-top: 0;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 979px) {
+    .first-block {
+        height: 45vh;
+    }
+    
+    .content-overlay h2 {
+        font-size: 16px;
+    }
+
+    .second-block {
+        height: 45vh;
+    }
+
+    .second-block .content-overlay {
+        right: 60%;
+        bottom: 5%;
+    }
+
+    .features a {
+        margin-left: 50px;
+    }
+}
+
+@media all and (min-width: 360px) and (max-width: 759px) {
+    .content-overlay h2 {
+        font-size: 8px;
+    }
+
+    .first-block {
+        height: 25vh;
+    }
+
+    .content-overlay a {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .second-block {
+        height: 25vh;
+    }
+
+    .second-block .content-overlay {
+        right: 70%;
+        bottom: 5%;
+    }
+
+    .second-block a{
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .content-overlay img {
+        width: 25%;
+    }
+
+    .features {
+        height: 40vh;
+    }
+
+    .features h2 {
+        font-size: 10px;
+    }
+
+    .feature h3 {
+        font-size: 10px;
+    }
+
+    .feature img {
+        width: 15%;
+        background-color: white;
+        padding: 15px;
+        align-self: center;
+    }
+
+    .about-a a {
+        font-size: 10px;
+        padding: 10px;
+        justify-self: center;
+    }
+
+    .btn-img {
+        width: 30px;
+    }
+
+    .features-list {
+        flex-direction: column;
+    }
 }

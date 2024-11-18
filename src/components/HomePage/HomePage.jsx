@@ -45,7 +45,9 @@ function HomePage() {
                         <h3>Групповые тренировки</h3>
                     </div>
                 </div>
-                <a href="/about">Подробнее в разделе "О нас"<img src={arrowImg} className="btn-img"/></a>
+                <div className="about-a">
+                    <a href="/about">Подробнее в разделе "О нас"<img src={arrowImg} className="btn-img"/></a>
+                </div>
             </div>
             <div className="form">
                 <h2>Закажите абонемент прямо сейчас!</h2>

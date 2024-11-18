@@ -1,305 +1,118 @@
-* {
-    font-family: 'Ubuntu';
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    
 }
 
-@media all and (min-width: 1200px) {
-    .navbar {
-        width: 100%;
-        height: 116px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    
-    .navbar .logo {
-        width: 76px;
-        height: 73px;
-        padding-left: 16px;
-    }
+.navbar-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+}
 
-    .navbar-center {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
 
-    .navbar-links {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 694px;
-        padding-left: 131px;
-        gap: 47px;
-    }
+.login {
+    position: absolute;
+    right: 10%;
+    color: white;
+    text-decoration: underline;
+    background-color: #C00808;
+    font-size: 36px;
+    padding: 5px 20px;
+}
 
-    .navbar-center .login {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 122px;
-        background-color: #C00808;
-        width: 150px;
-        height: 42px;
-        text-align: center;
-        color: white;
-        font-size: 28px;
-    }
+.logo {
+    position: relative;
+    left: 5%;
+}
 
-    .navbar-links .active {
-        background-color: #C00808;
-        color: white;
-        border-radius: 15px;
-        padding: 4px;
-    }
+.navbar-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    text-decoration: underline;
+}
 
-    .navbar-links a {
-        color: black;
-        text-decoration: underline;
-        font-size: 28px;
-        transition: all 0.3s ease;
-        box-sizing: border-box;
-    }
+.navbar-links a:hover {
+    color: white;
+    background-color: #C00808;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
 
-    hr {
-        background-color: black;
-        width: 100%;
-        height: 2px;
-    }
-
-    .navbar-links a:hover {
-        background-color: #C00808;
-        color: white;
-        border-radius: 15px;
-        box-shadow: 0 0 8px rgba(192, 8, 8, 0.7);
-    }
- }
+.navbar-links .active {
+    background-color: #C00808;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: white;
+}
 
 @media all and (min-width: 980px) and (max-width: 1199px) { 
-    .navbar {
-        width: 100%;
-        height: 116px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .navbar .logo {
-        width: 76px;
-        height: 73px;
-        padding-left: 16px;
-    }
-
-    .navbar-center {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .navbar-links {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 613px;
-        padding-left: 94px;
-        gap: 70px;
-    }
-
-    .navbar-center .login {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 88px;
-        margin-right: 35px;
-        background-color: #C00808;
-        width: 80px;
-        height: 30px;
-        text-align: center;
-        color: white;
-    }
-
-    .navbar-links .active {
-        background-color: #C00808;
-        color: white;
-        border-radius: 15px;
-        padding: 4px;
-    }
-
     .navbar-links a {
-        color: black;
-        text-decoration: underline;
         font-size: 20px;
-        transition: all 0.3s ease;
-        box-sizing: border-box;
-    }
-
-    hr {
-        background-color: black;
-        width: 100%;
-        min-width: 100%;
-        height: 2px;
-    }
-
-    .navbar-links a:hover {
-        background-color: #C00808;
-        color: white;
-        border-radius: 15px;
-        box-shadow: 0 0 8px rgba(192, 8, 8, 0.7);
-    }
-}
-
-@media all and (min-width: 760px) and (max-width: 979px) { 
-    .navbar {
-        width: 100%;
-        height: 116px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    
-    .navbar .logo {
-        width: 76px;
-        height: 73px;
-        padding-left: 15px;
-    }
-
-    .navbar-center {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        align-self: center;
-        width: 100%;
-    }
-
-    .navbar-links {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-left: 52px;
-        gap: 60px;
-        justify-self: center;
-        text-align: center;
-    }
-
-    .navbar-center .login {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 54px;
-        margin-right: 22px;
-        background-color: #C00808;
-        width: 55px;
-        height: 25px;
-        padding: 5px;
-        text-align: center;
-        color: white;
-    }
-
-    .navbar-links .active {
-        background-color: #C00808;
-        color: white;
-        border-radius: 15px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .navbar-links a {
-        color: black;
-        text-decoration: underline;
-        font-size: 16px;
-        transition: all 0.3s ease;
-        box-sizing: border-box;
-        width: 100%;
-        text-wrap: nowrap;
-    }
-
-    hr {
-        background-color: black;
-        width: 100%;
-        height: 2px;
-    }
-
-    .navbar-links a:hover {
-        background-color: #C00808;
-        color: white;
-        border-radius: 15px;
-        box-shadow: 0 0 8px rgba(192, 8, 8, 0.7);
-    }
- }
-
-@media all and (min-width: 360px) and (max-width: 759px) { 
-    .navbar {
-        width: 100%;
-        height: 51px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .navbar .logo {
-        width: 10%;
-        padding-left: 8px;
-    }
-
-    .navbar-center {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-
-    .navbar-links {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-        padding-left: 26px;
-        text-wrap: nowrap;
     }
 
     .login {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 26px;
-        margin-right: 12px;
-        background-color: #C00808;
-        width: 36px;
-        height: 12px;
-        text-align: center;
-        color: white;
+        font-size: 20px;
+        right: 5%;
+    }
+
+    .logo {
+        width: 76px;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 979px) {
+    .navbar-links a {
+        font-size: 16px;
+    }
+
+    .login {
+        font-size: 16px;
+        right: 5%;
+    }
+
+    .logo {
+        width: 76px;
+    }
+
+    .navbar-links {
+        gap: 50px;
+    }
+}
+
+@media all and (min-width: 360px) and (max-width: 759px) {
+    .navbar-links a {
         font-size: 8px;
+    }
+
+    .login {
+        font-size: 8px;
+        right: 5%;
+        padding: 5px 10px;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+    .navbar-links {
+        gap: 25px;
     }
 
     .navbar-links .active {
-        background-color: #C00808;
-        color: white;
-        border-radius: 15px;
-        padding: 4px;
-    }
-
-    .navbar-links a {
-        color: black;
-        text-decoration: underline;
-        font-size: 8px;
-        transition: all 0.3s ease;
-        box-sizing: border-box;
-    }
-
-    hr {
-        background-color: black;
-        width: 100%;
-        min-width: 100%;
-        height: 2px;
-    }
-
-    .navbar-links a:hover {
-        background-color: #C00808;
-        color: white;
-        border-radius: 15px;
-        box-shadow: 0 0 8px rgba(192, 8, 8, 0.7);
+        padding: 5px 10px;
     }
 }

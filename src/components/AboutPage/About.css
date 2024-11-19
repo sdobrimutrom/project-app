@@ -99,12 +99,14 @@
 }
 
 .about-us .fit-people {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-self: center;
+    align-items: center;
+    padding-bottom: 30px;
 }
 
 .fit-people .fit {
@@ -114,6 +116,7 @@
     text-align: center;
     justify-self: center;
     justify-content: center;
+    align-items: center;
 }
 
 .fit img {
@@ -122,6 +125,7 @@
     width: 100%;
     height: auto;
     justify-self: center;
+    align-self: center;
 }
 
 .fit h3 {
@@ -129,4 +133,148 @@
     width: 100%;
     color: #C00808;
     font-size: 28px;
+}
+
+@media all and (min-width: 980px) and (max-width: 1199px) {
+    .about-us .trainings-block .training {
+        font-size: 24px;
+    }
+
+    .training h2 {
+        font-size: 24px;
+    }
+
+    .training h3 {
+        font-size: 24px;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 979px) {
+    .about-us .features-block {
+        flex-direction: column;
+    }
+
+    .about-us .features-block .feature {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+   
+    
+    .about-us .trainings-block .training {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: start;
+        width: 40%;
+        height: auto;
+        font-size: 24px;
+    }
+
+    #first {
+        margin-top: 30px;
+        background-size: cover;
+    }
+    
+    #second {
+        margin-top: 30px;
+        background-size: cover;
+    }
+    
+    #third {
+        margin-top: 30px;
+        background-size: cover;
+    }
+    
+    #fourth {
+        margin-top: 30px;
+        background-size: cover;
+    }
+    
+    #fifth {
+       
+        margin-top: 30px;
+        background-size: cover;
+    }
+    
+    #sixth {
+        margin-top: 30px;
+        background-size: cover;
+    }
+
+    .training h2, h3 {
+        font-size: 24px;
+    }
+
+    .fit h3 {
+        font-size: 24px;
+    }
+}
+
+@media all and (min-width: 360px) and (max-width: 759px) {
+    .about-us .features-block {
+        flex-direction: column;
+    }
+
+    .about-us .features-block .feature {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-us .features-block .feature p {
+        font-size: 8px;
+    }
+
+    .about-us .features-block .feature img {
+        width: 5%;
+    }
+    
+    .about-us .trainings-block .training {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: start;
+        width: 40%;
+        height: auto;
+        font-size: 8px;
+    }
+
+    #first {
+        background-size: cover;
+    }
+    
+    #second {
+        background-size: cover;
+    }
+    
+    #third {
+        margin-top: 10px;
+        background-size: cover;
+    }
+    
+    #fourth {
+        margin-top: 10px;
+        background-size: cover;
+    }
+    
+    #fifth {
+       
+        margin-top: 10px;
+        background-size: cover;
+    }
+    
+    #sixth {
+        margin-top: 10px;
+        background-size: cover;
+    }
+
+    .training h2, h3 {
+        font-size: 8px;
+    }
+
+    .fit h3 {
+        font-size: 8px;
+    }
 }

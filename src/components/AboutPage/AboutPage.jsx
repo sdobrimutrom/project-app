@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer"
 import "./About.css";
 import appleImg from "../../images/apple.png";
 import waistImg from "../../images/waist.png";
@@ -77,6 +78,7 @@ function AboutPage() {
                 </div>
             </div>
             <Form/>
+            <Footer/>
         </div>
     );
 }

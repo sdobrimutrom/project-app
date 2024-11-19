@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import './Login.css'
 
 function LoginPage() {
@@ -25,6 +26,7 @@ function LoginPage() {
                     <a href="/signin" className="signin-btn">Регистрация</a>
                 </form>
             </div>
+            <Footer/>
         </div>
     );
 }

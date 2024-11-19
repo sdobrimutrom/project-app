@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import "./Registration.css"
 
 function RegistrationPage() {
@@ -36,6 +37,7 @@ function RegistrationPage() {
                     <a href="/signin" className="registration-btn">Регистрация</a>
                 </form>
             </div>
+            <Footer/>
         </div>
     );
 }

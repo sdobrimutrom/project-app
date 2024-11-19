@@ -1,7 +1,7 @@
 .login-form {
     justify-self: center;
     width: 50%;
-    height: 50vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     background-color: #C00808;
@@ -25,10 +25,11 @@
 .login-form label {
     color: white;
     font-size: 28px;
+    width: 60%;
 }
 
 .login-form input {
-    width: 80%;
+    width: 60%;
     height: 3vh;
     border: solid 2px black;
     border-radius: 50px;
@@ -37,21 +38,25 @@
 .remember-me {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 60%;
     justify-self: start;
+    justify-content: start;
 }
 .remember-me label {
     width: 100%;
+    text-decoration: underline;
+    margin-left: 10px;
 }
 
 .remember-me input {
-    
-    justify-self: end;
+    width: 25px;
+    height: 25px;
+
 }
 
 .login-form a {
     text-decoration: none;
-    width: 50%;
+    width: 60%;
     border: solid 2px black;
     border-radius: 50px;
     text-align: center;
@@ -71,4 +76,73 @@
 .login-form a:hover {
     background-color: #C00808;
     color: white;
+}
+
+@media all and (min-width: 760px) and (max-width: 979px) {
+    .login-form h3 {
+        font-size: 32px;
+    }
+
+    .login-form label {
+        font-size: 28px;
+        width: 70%;
+    }
+
+    #femail, #fpass {
+        width: 70%;
+    }
+
+    .login-form {
+        width: 70%;
+    }
+
+    .remember-me {
+        width: 70%;
+    }
+
+    .login-form a {
+        width: 70%;
+    }
+}
+
+@media all and (min-width: 360px) and (max-width: 759px) {
+    .login-form {
+        width: 90%;
+        height: 35vh;
+    }
+
+    .login-form h3 {
+        font-size: 14px;
+    }
+
+    .remember-me {
+        width: 90%;
+    }
+
+    .login-form a {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .login-form label {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    #femail, #fpass {
+        width: 90%;
+    }
+
+    .remember-me input {
+        width: 19px;
+        height: 19px;
+    }
+
+    .remember-me {
+        align-items: center;
+    }
+
+    .login-btn {
+        margin: 20px 0;
+    }
 }

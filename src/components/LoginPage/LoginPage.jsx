@@ -16,7 +16,8 @@ function LoginPage() {
                     <input type="password" id="fpass" name="fpass" placeholder="Ваш пароль..."/>
                     
                     <div className="remember-me">
-                        <input type="checkbox" value="lsRememberMe" id="rememberMe"/> <label for="rememberMe">Запомнить меня</label>
+                        <input type="checkbox" value="lsRememberMe" id="rememberMe"/>
+                        <label for="rememberMe">Запомнить меня</label>
                     </div>
 
 

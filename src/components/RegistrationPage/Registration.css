@@ -1,0 +1,154 @@
+.registration-form {
+    justify-self: center;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #C00808;
+    border-radius: 15px;
+    border: solid 2px black;
+    margin-top: 5%;
+}
+
+.registration-form h3 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registration-form label {
+    color: white;
+    font-size: 28px;
+    width: 60%;
+}
+
+.registration-form input {
+    width: 60%;
+    height: 4vh;
+    border: solid 2px black;
+    border-radius: 50px;
+    font-size: 28px;
+}
+
+.sex-input {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-self: start;
+    justify-content: start;
+    align-items: center;
+}
+.sex-input label {
+    width: auto;
+}
+
+.sex-input input {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+.registration-btn {
+    text-decoration: none;
+    width: 60%;
+    border: solid 2px black;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin: 44px 0;
+    background-color: #EBFFA3;
+}
+
+.registration-form a:hover {
+    background-color: #C00808;
+    color: white;
+}
+
+@media all and (min-width: 760px) and (max-width: 979px) {
+    .registration-form h3 {
+        font-size: 32px;
+    }
+
+    .registration-form label {
+        font-size: 28px;
+        width: 70%;
+    }
+
+    #femail, #fpass, #ftel, #ffname, #fsname {
+        width: 70%;
+    }
+
+    .registration-form {
+        width: 70%;
+    }
+
+    .sex-input {
+        width: 70%;
+    }
+
+    .sex-input label {
+        width: auto;
+    }
+
+    .registration-form a {
+        width: 70%;
+    }
+}
+
+@media all and (min-width: 360px) and (max-width: 759px) {
+    .registration-form {
+        width: 90%;
+        height: 45vh;
+    }
+
+    .registration-form h3 {
+        font-size: 14px;
+    }
+
+    .sex-input {
+        width: 90%;
+    }
+
+    .registration-form a {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .registration-form label {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .registration-form input {
+        font-size: 14px;
+        height: 25px;
+    }
+
+    #femail, #fpass, #ftel, #ffname, #fsname {
+        width: 90%;
+    }
+
+    .sex-input input {
+        width: 19px;
+        height: 19px;
+    }
+
+    .sex-input {
+        align-items: center;
+    }
+
+    .sex-input label {
+        width: auto;
+    }
+
+    .registration-btn {
+        margin: 10px 0;
+    }
+}

@@ -16,10 +16,12 @@ const Pagination = ({ totalNews, newsPerPage, paginate, currentPage }) => {
                             onClick={() => paginate(number)}
                             style={{
                                 padding: "5px 10px",
-                                backgroundColor: number === currentPage ? "blue" : "gray",
+                                backgroundColor: number === currentPage ? "#C00808" : "gray",
                                 color: "white",
                                 border: "none",
                                 cursor: "pointer",
+                                fontSize: "20px",
+                                marginLeft: "50%"
                             }}
                         >
                             {number}

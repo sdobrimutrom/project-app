@@ -1,0 +1,35 @@
+.news-item {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    border: solid 2px black;
+    border-radius: 25px;
+    justify-self: center;
+    margin-bottom: 30px;
+};
+
+.news-item h2 {
+    font-size: 24px;
+}
+
+.news-item p {
+    font-size: 20px;
+    justify-self: end;
+    align-self: flex-end;
+    color: gray;
+    text-decoration: underline;
+    position: absolute;
+    right: 5%;
+}
+
+.news-description {
+    font-size: 20px;
+    line-height: 2;
+}
+
+
+.news-item img {
+    width: 300px;
+    height: auto;
+    padding: 50px;
+}

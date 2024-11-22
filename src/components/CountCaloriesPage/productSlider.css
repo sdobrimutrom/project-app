@@ -1,0 +1,56 @@
+.product-slider {
+    margin-bottom: 30px;
+    background-color: #C00808;
+    padding: 50px;
+    width: 90%;
+    justify-self: center;
+    border-radius: 25px;
+    color: black;
+}
+
+.product-slider h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    color: white;
+    font-size: 28зч;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+.product img {
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.product h3 {
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.product ul {
+    margin-top: 5px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.slick-dots li button:before {
+    color: gray; /* Цвет неактивных точек */
+    font-size: 12px; /* Размер точки */
+  }
+  
+  /* Стили для активной точки */
+  .slick-dots li.slick-active button:before {
+    color: white; /* Цвет активной точки */
+  }

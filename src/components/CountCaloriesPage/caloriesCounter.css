@@ -1,0 +1,128 @@
+.calories-counter {
+    width: 95%;
+    border: solid 2px black;
+    border-radius: 25px;
+    height: 55vh;
+    background-color: #C00808;
+    justify-self: center;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.calories-counter h3 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.calories-counter {
+    display: flex;
+    flex-direction: column;
+}
+
+.calories-counter .set-sex {
+    display: flex;
+    flex-direction: row;
+}
+
+.calories-counter .set-specs {
+    display: flex;
+    flex-direction: row;
+}
+
+.calories-counter .set-age {
+    display: flex;
+    flex-direction: row;
+}
+
+.calories-counter .set-goal {
+    display: flex;
+    flex-direction: row;
+}
+
+.set-sex button:nth-child(2) {
+    margin-right: 5%;
+}
+.set-goal button {
+    width: 15%;
+    height: 50%;
+    align-self: center;
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.set-sex button {
+    width: 15%;
+    height: 50%;
+    align-self: center;
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.set-goal button:nth-child(n + 1) {
+    margin-right: 5%;
+}
+
+.calories-counter input {
+    width: 15%;
+    height: 5vh;
+    align-self: center;
+    border: solid 1px black;
+    font-size: 28px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.count-btn {
+    background-color: #A3FFC1;
+    width: 50%;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 25%;
+    top: 55%;
+}
+
+.button.selected {
+    background-color: #9C8D8D;
+    color: white;
+}
+
+.button:hover {
+    background-color: #9C8D8D;
+    color: white;
+}
+
+.button {
+    transition: 0.3s ease;
+}
+
+.total-calories {
+    width: 95%;
+    justify-self: center;
+    border: solid 2px black;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.total-calories span {
+    background-color: #D9D9D9;
+    padding: 10px;
+    border: solid 2px black;
+    margin-left: 30px;
+}
+
+.total-calories h3 {
+    margin-left: 30px;
+}
